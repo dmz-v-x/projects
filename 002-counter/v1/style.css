@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+}
+
+#app {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+    /* margin-top: 50%; */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
