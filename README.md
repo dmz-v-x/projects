@@ -17,28 +17,37 @@ https://dmz-v-x.github.io/projects/
 
 ## 📁 Projects Overview
 
-### 🔢 Counter App
+### Counter App
 
 A simple counter application rebuilt multiple times to demonstrate how state management and architecture evolve with different technologies.
 
 | Version | Tech Stack | Live Demo |
 |-------|-----------|-----------|
 | V1 | HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/counter-app/v1-vanilla/) |
-| V2 | React | [Open](https://your-username.github.io/javascript-projects/counter-app/v2-react/) |
-| V3 | Next.js (Static Export) | [Open](https://your-username.github.io/javascript-projects/counter-app/v3-nextjs/) |
-| V4 | React + TypeScript | [Open](https://your-username.github.io/javascript-projects/counter-app/v4-react-ts/) |
+| V2 | React + TypeScript | [Open](https://your-username.github.io/javascript-projects/counter-app/v4-react-ts/) |
 
 ---
 
-### ✅ Todo App
+### Todo App
 
 A classic todo application focusing on user interaction, state updates, and component structure.
 
 | Version | Tech Stack | Live Demo |
 |-------|-----------|-----------|
 | V1 | HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v1-vanilla/) |
-| V2 | React | [Open](https://your-username.github.io/javascript-projects/todo-app/v2-react/) |
-| V3 | React + TypeScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v3-react-ts/) |
+| V2 | React + TypeScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v3-react-ts/) |
+
+---
+
+
+### Jokes App
+
+A Joke application that fetches jokes from an online api.
+
+| Version | Tech Stack | Live Demo |
+|-------|-----------|-----------|
+| V1 | HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v1-vanilla/) |
+| V2 | React + TypeScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v3-react-ts/) |
 
 ---
 
