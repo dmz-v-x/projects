@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+  --bg: #111827;
+  --panel: #1f2937;
+  --tile: #111827;
+  --tile-border: #374151;
+  --text: #f9fafb;
+  --muted: #9ca3af;
+  --correct: #22c55e;
+  --present: #eab308;
+  --absent: #4b5563;
+  --key: #374151;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at top, #1f2937 0%, var(--bg) 55%);
+  color: var(--text);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game {
+  width: min(520px, 94vw);
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  margin: 8px 0 10px;
+  color: var(--muted);
+}
+
+.message {
+  min-height: 24px;
+  margin: 0 0 14px;
+  font-weight: 600;
+}
+
+.board {
+  display: grid;
+  gap: 8px;
+  margin: 0 auto 18px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.tile {
+  width: min(64px, 16vw);
+  aspect-ratio: 1;
+  border: 2px solid var(--tile-border);
+  background: var(--tile);
+  display: grid;
+  place-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
+.tile.filled {
+  border-color: #9ca3af;
+}
+
+.tile.correct {
+  background: var(--correct);
+  border-color: var(--correct);
+}
+
+.tile.present {
+  background: var(--present);
+  border-color: var(--present);
+  color: #111827;
+}
+
+.tile.absent {
+  background: var(--absent);
+  border-color: var(--absent);
+}
+
+.keyboard {
+  display: grid;
+  gap: 8px;
+}
+
+.key-row {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.key {
+  border: 0;
+  min-width: 32px;
+  padding: 10px 8px;
+  border-radius: 6px;
+  background: var(--key);
+  color: var(--text);
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.key.large {
+  min-width: 58px;
+  font-size: 0.72rem;
+}
+
+.key.correct {
+  background: var(--correct);
+}
+
+.key.present {
+  background: var(--present);
+  color: #111827;
+}
+
+.key.absent {
+  background: var(--absent);
+}
+
+.reset {
+  margin-top: 16px;
+  border: 0;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
