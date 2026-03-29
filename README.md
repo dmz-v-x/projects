@@ -1,8 +1,8 @@
-# 🚀 JavaScript Projects Playground
+# 🚀 Vanilla JavaScript Projects Playground
 
-A curated collection of frontend projects built to demonstrate **progressive learning and implementation** across different JavaScript ecosystems — from **Vanilla JavaScript** to **React**, **Next.js**, and **TypeScript**.
+A curated collection of frontend projects built using **pure HTML, CSS, and JavaScript**.
 
-Each project is implemented in **multiple versions**, showing how the *same idea evolves* with different tools, architectures, and best practices.
+This repository focuses on mastering **core web fundamentals** by building real-world projects without relying on frameworks or libraries.
 
 ---
 
@@ -19,80 +19,67 @@ https://dmz-v-x.github.io/projects/
 
 ### Counter App
 
-A simple counter application rebuilt multiple times to demonstrate how state management and architecture evolve with different technologies.
+A simple counter application demonstrating DOM manipulation and event handling using vanilla JavaScript.
 
-| Version | Tech Stack | Live Demo |
-|-------|-----------|-----------|
-| V1 | HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/counter-app/v1-vanilla/) |
-| V2 | React + TypeScript | [Open](https://your-username.github.io/javascript-projects/counter-app/v4-react-ts/) |
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/counter-app/v1-vanilla/) |
 
 ---
 
 ### Todo App
 
-A classic todo application focusing on user interaction, state updates, and component structure.
+A classic todo application focused on dynamic UI updates, state handling, and user interactions.
 
-| Version | Tech Stack | Live Demo |
-|-------|-----------|-----------|
-| V1 | HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v1-vanilla/) |
-| V2 | React + TypeScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v3-react-ts/) |
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v1-vanilla/) |
 
 ---
-
 
 ### Jokes App
 
-A Joke application that fetches jokes from an online api.
+A fun application that fetches and displays jokes from a public API using asynchronous JavaScript.
 
-| Version | Tech Stack | Live Demo |
-|-------|-----------|-----------|
-| V1 | HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v1-vanilla/) |
-| V2 | React + TypeScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v3-react-ts/) |
-
----
-
-## 🧠 Why Multiple Versions?
-
-Each project is intentionally rebuilt using different technologies to clearly show:
-
-- How **architecture changes** as complexity increases
-- Differences in **state management approaches**
-- Benefits of **component-based design**
-- Advantages of **type safety with TypeScript**
-- Framework vs library trade-offs
-- Real-world **build and deployment workflows**
-- And obviously to showcase my learnings
-
-This mirrors how developers grow in real production environments.
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/jokes-app/v1-vanilla/) |
 
 ---
 
-## 🛠️ Tech Stack Covered
+## 🧠 What This Repository Focuses On
+
+- **DOM Manipulation**
+- **Event Handling**
+- **Asynchronous JavaScript (Fetch API, Promises, Async/Await)**
+- **State Management without frameworks**
+- **Clean and scalable folder structure**
+- Writing maintainable and readable JavaScript
+
+---
+
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- React
-- React + TypeScript
-- Next.js (Static Export)
-- GitHub Pages
+- GitHub Pages (for deployment)
 
 ---
 
 ## 📌 Important Notes
 
-- All React and Next.js projects are **statically built**
-- GitHub Pages is used for hosting
-- Focus is on **frontend fundamentals and progression**
-- Folder structure is intentionally clean and scalable
+- No frameworks or libraries are used
+- All projects are built from scratch using vanilla JavaScript
+- Focus is on **strong fundamentals and real-world logic building**
+- Code is structured for clarity and scalability
 
 ---
 
 ## 👤 Author
 
 **Himanshu Bhatt**  
-Frontend & Full-Stack Learner  
-Building projects from **zero → production-ready**
+Full Stack Developer (Learning & Building)
 
 ---
 
@@ -100,14 +87,14 @@ Building projects from **zero → production-ready**
 
 If you find this repository useful:
 
-- Star ⭐ the repo
-- Open issues 🐛 for suggestions
-- Share feedback 💡
+- Star ⭐ the repo  
+- Open issues 🐛 for suggestions  
+- Share feedback 💡  
 
 ---
 
 ### 🔚 Final Thought
 
-> Same problem.  
-> Multiple solutions.  
-> Clear progression.
+> Master the fundamentals.  
+> Build without shortcuts.  
+> Frameworks become easier after that.
