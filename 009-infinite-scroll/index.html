@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite Scroll Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Infinite Scroll Gallery</h1>
+    <p class="subtitle">Scroll down to load more items automatically.</p>
+
+    <section id="feed" class="feed" aria-live="polite"></section>
+
+    <div id="loader" class="loader" hidden>Loading more items...</div>
+    <div id="endMessage" class="end-message" hidden>No more items to load.</div>
+
+    <div id="sentinel" class="sentinel" aria-hidden="true"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

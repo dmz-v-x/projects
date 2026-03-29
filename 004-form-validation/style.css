@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-1: #eef4ff;
+  --bg-2: #f7fbff;
+  --card: #ffffff;
+  --text: #1f2b40;
+  --muted: #6b7280;
+  --border: #d6e1f2;
+  --focus: #3b82f6;
+  --danger: #dc2626;
+  --success: #15803d;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, var(--bg-1), var(--bg-2));
+  color: var(--text);
+}
+
+.card {
+  width: min(500px, 92vw);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 18px 42px rgba(31, 43, 64, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.subtitle {
+  margin: 8px 0 18px;
+  color: var(--muted);
+}
+
+.field {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  border: 1px solid #c7d6ee;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font: inherit;
+  outline: none;
+}
+
+input:focus {
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.16);
+}
+
+input.invalid {
+  border-color: var(--danger);
+}
+
+input.valid {
+  border-color: var(--success);
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+.checkbox-row input {
+  width: 16px;
+  height: 16px;
+}
+
+.error {
+  min-height: 16px;
+  color: var(--danger);
+  display: block;
+  margin-top: 5px;
+  font-size: 0.82rem;
+}
+
+button {
+  margin-top: 8px;
+  border: 0;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.success {
+  min-height: 20px;
+  color: var(--success);
+  font-weight: 700;
+  margin-top: 10px;
+}

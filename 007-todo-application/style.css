@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  width: 420px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filter {
+  flex: 1;
+  margin: 0 3px;
+  background: #444;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+li {
+  background: #f7f7f7;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 0.2s ease-in;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.complete { background: #38a169; }
+.delete { background: #e53e3e; }
+.edit { background: #d69e2e; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+#clearCompleted {
+  background: #e53e3e;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

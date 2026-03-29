@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-1: #dff0ff;
+  --bg-2: #eff8ff;
+  --card: #ffffff;
+  --text: #1f2a40;
+  --muted: #64748b;
+  --border: #d8e4f3;
+  --accent: #2563eb;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at top left, var(--bg-1), var(--bg-2));
+}
+
+.app {
+  width: min(920px, 94vw);
+  margin: 30px auto;
+  display: grid;
+  gap: 14px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+}
+
+header p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.search-panel,
+.weather-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 10px 26px rgba(31, 42, 64, 0.08);
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-form input {
+  flex: 1;
+  min-width: 210px;
+  border: 1px solid #c4d6ee;
+  border-radius: 10px;
+  padding: 10px;
+  font: inherit;
+  outline: none;
+}
+
+.search-form input:focus {
+  border-color: #8fb3f6;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.search-form button {
+  border: 0;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.status {
+  min-height: 22px;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.current {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.current h2 {
+  margin: 0;
+}
+
+.current p {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
+.temp-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.temp-box span {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.metrics {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.metrics div {
+  background: #f4f8ff;
+  border: 1px solid #dbe8fb;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.metrics small {
+  display: block;
+  color: var(--muted);
+}
+
+.metrics strong {
+  display: block;
+  margin-top: 4px;
+}
+
+.weather-card h3 {
+  margin: 14px 0 10px;
+}
+
+.forecast-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 8px;
+}
+
+.forecast-item {
+  border: 1px solid #dbe6f8;
+  background: #fbfdff;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+}
+
+.forecast-item p {
+  margin: 3px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+}

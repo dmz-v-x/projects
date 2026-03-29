@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f4f6fb;
+  --card-bg: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --shadow: 0 10px 24px rgba(31, 41, 55, 0.08);
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #eef2ff 0%, var(--bg) 40%, #f9fafb 100%);
+  color: var(--text);
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 40px auto 60px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 3.2vw, 2.2rem);
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: var(--muted);
+}
+
+.feed {
+  margin-top: 24px;
+  display: grid;
+  gap: 16px;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 14px 16px 18px;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.loader,
+.end-message {
+  margin: 22px 0 8px;
+  text-align: center;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.sentinel {
+  height: 1px;
+}
+
+@media (max-width: 640px) {
+  .container {
+    margin-top: 28px;
+  }
+
+  .card img {
+    height: 210px;
+  }
+}

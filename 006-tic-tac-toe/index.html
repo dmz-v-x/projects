@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Tic Tac Toe</h1>
+    <p id="status" class="status" aria-live="polite">Player X's turn</p>
+
+    <section id="board" class="board" aria-label="Tic Tac Toe Board">
+      <button class="cell" data-index="0" aria-label="Cell 1"></button>
+      <button class="cell" data-index="1" aria-label="Cell 2"></button>
+      <button class="cell" data-index="2" aria-label="Cell 3"></button>
+      <button class="cell" data-index="3" aria-label="Cell 4"></button>
+      <button class="cell" data-index="4" aria-label="Cell 5"></button>
+      <button class="cell" data-index="5" aria-label="Cell 6"></button>
+      <button class="cell" data-index="6" aria-label="Cell 7"></button>
+      <button class="cell" data-index="7" aria-label="Cell 8"></button>
+      <button class="cell" data-index="8" aria-label="Cell 9"></button>
+    </section>
+
+    <section class="scoreboard">
+      <div><strong id="xScore">0</strong><span>Player X</span></div>
+      <div><strong id="drawScore">0</strong><span>Draws</span></div>
+      <div><strong id="oScore">0</strong><span>Player O</span></div>
+    </section>
+
+    <div class="actions">
+      <button id="newRoundBtn" type="button">New Round</button>
+      <button id="resetScoreBtn" type="button">Reset Score</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Create Account</h1>
+    <p class="subtitle">Please fill all fields correctly.</p>
+
+    <form id="signupForm" novalidate>
+      <div class="field">
+        <label for="name">Full Name</label>
+        <input id="name" type="text" placeholder="John Doe" required>
+        <small class="error" id="nameError"></small>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com" required>
+        <small class="error" id="emailError"></small>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Min 8 chars, 1 number" required>
+        <small class="error" id="passwordError"></small>
+      </div>
+
+      <div class="field">
+        <label for="confirmPassword">Confirm Password</label>
+        <input id="confirmPassword" type="password" placeholder="Re-enter password" required>
+        <small class="error" id="confirmError"></small>
+      </div>
+
+      <label class="checkbox-row">
+        <input id="terms" type="checkbox">
+        <span>I agree to the terms and conditions</span>
+      </label>
+      <small class="error" id="termsError"></small>
+
+      <button type="submit">Register</button>
+      <p id="success" class="success" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
