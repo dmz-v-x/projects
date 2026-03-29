@@ -17,33 +17,93 @@ https://dmz-v-x.github.io/projects/
 
 ## 📁 Projects Overview
 
-### Counter App
-
-A simple counter application demonstrating DOM manipulation and event handling using vanilla JavaScript.
+### 1. Sticky Navbar
+A navbar that hides on scroll down and reappears on scroll up.
 
 | Tech Stack | Live Demo |
 |-----------|-----------|
-| HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/counter-app/v1-vanilla/) |
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/001-sticky-navbar-auto-hide/) |
 
 ---
 
-### Todo App
-
-A classic todo application focused on dynamic UI updates, state handling, and user interactions.
+### 2. Counter App
+A simple counter with increment, decrement, and reset functionality.
 
 | Tech Stack | Live Demo |
 |-----------|-----------|
-| HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/todo-app/v1-vanilla/) |
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/002-counter/) |
 
 ---
 
-### Jokes App
-
-A fun application that fetches and displays jokes from a public API using asynchronous JavaScript.
+### 3. Jokes App
+Fetches and displays random jokes from an online API.
 
 | Tech Stack | Live Demo |
 |-----------|-----------|
-| HTML, CSS, JavaScript | [Open](https://your-username.github.io/javascript-projects/jokes-app/v1-vanilla/) |
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/003-jokes-app/) |
+
+---
+
+### 4. Form Validation
+Demonstrates form input validation and error handling.
+
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/004-form-validation/) |
+
+---
+
+### 5. Weather App
+Displays current weather information for a given location.
+
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/005-weather-app/) |
+
+---
+
+### 6. Tic Tac Toe
+A browser-based implementation of the classic Tic Tac Toe game.
+
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/006-tic-tac-toe/) |
+
+---
+
+### 7. Todo Application
+A task manager for adding, deleting, and tracking todos.
+
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/007-todo-application/) |
+
+---
+
+### 8. Nested Comments
+Displays threaded/nested comments similar to discussion platforms.
+
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/008-nested-comments/) |
+
+---
+
+### 9. Infinite Scroll
+Loads new content dynamically as the user scrolls.
+
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/009-infinite-scroll/) |
+
+---
+
+### 10. Wordle
+Guess a 5-letter word within 6 attempts.
+
+| Tech Stack | Live Demo |
+|-----------|-----------|
+| HTML, CSS, JavaScript | [Open](https://dmz-v-x.github.io/projects/010-wordle/) |
 
 ---
 
